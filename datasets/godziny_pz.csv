@@ -1,0 +1,91 @@
+id;przedmiot;forma;godziny;semestr
+1;Psychologia ogólna;w;40;1
+1;Psychologia ogólna;c;30;1
+2;Historia psychologii;w;20;1
+3;Przegląd specjalności i dziedzin psychologii;w;15;1
+3;Przegląd specjalności i dziedzin psychologii;c;5;1
+4;Trening interpersonalny;c;30;1
+5;Wprowadzenie do komunikacji interpersonalnej;c;30;1
+6;Szkolenie BHP;w;4;1
+7;Szkolenie biblioteczne;s;2;1
+8;Podstawy naukowej informacji medycznej ;s;4;1
+9;Podstawy logiki;s;15;1
+9;Podstawy logiki;c;15;1
+10;Filozofia z epistemologią i antropologia człowieka;s;30;1
+11;Podstawy statystyki i rachunku prawdopodobieństwa;s;10;1
+11;Podstawy statystyki i rachunku prawdopodobieństwa;c;10;1
+12;Metodologia badań psychologicznych;w;30;1
+12;Metodologia badań psychologicznych;c;30;1
+12;Metodologia badań psychologicznych;c;30;2
+13;Podstawy anatomii układu nerwowego;w;30;1
+13;Podstawy anatomii układu nerwowego;c;45;1
+14;Biologiczne mechanizmy zachowania;w;30;1
+14;Biologiczne mechanizmy zachowania;w;15;2
+14;Biologiczne mechanizmy zachowania;c;15;1
+14;Biologiczne mechanizmy zachowania;c;15;2
+15;Język obcy;c;30;1
+15;Język obcy;c;30;2
+16;Wychowanie fizyczne;c;30;1
+17;Technologie informatyczne w pracy naukowej;c;30;2
+18;Podstawy genetyki;w;30;2
+19;Metody statystyczne w psychologii;c;60;2
+20;Psychologia poznawcza;w;60;2
+20;Psychologia poznawcza;c;60;2
+21;Wprowadzenie do psychologii społecznej;w;30;2
+21;Wprowadzenie do psychologii społecznej;s;15;2
+21;Wprowadzenie do psychologii społecznej;c;15;2
+22;Metody statystyczne w psychologii;c;60;3
+23;Psychologia różnic indywidualnych;w;30;4
+24;Psychologia społeczna;w;30;3
+24;Psychologia społeczna;s;15;3
+24;Psychologia społeczna;c;15;3
+25;Psychometria;w;30;3
+25;Psychometria;c;30;3
+26;Psychologia zdrowia – koncepcje zdrowia i jakości  życia;w;30;4
+26;Psychologia zdrowia – koncepcje zdrowia i jakości  życia;s;15;4
+27;Psychologia emocji i motywacji;w;30;3
+27;Psychologia emocji i motywacji;s;15;3
+27;Psychologia emocji i motywacji;c;15;3
+28;Psychologia rozwoju człowieka;w;45;3
+28;Psychologia rozwoju człowieka;s;30;3
+29;Język obcy ;c;30;3
+29;Język obcy ;c;30;4
+30;Psychologia edukacyjna;w;15;4
+30;Psychologia edukacyjna;c;15;4
+31;Teorie osobowości;w;60;3
+31;Teorie osobowości;c;30;3
+32;Psychologia pracy i organizacji;s;15;4
+33;Psychologia w medycynie pracy;w;15;4
+33;Psychologia w medycynie pracy;c;15;4
+34;Prawo dla psychologów;s;15;4
+35;Językoznawstwo;w;30;4
+36;Psycholingwistyka;w;30;4
+37;Neuroradiologia;w;15;4
+37;Neuroradiologia;c;15;4
+38;Podstawy neuroobrazowania;w;15;4
+38;Podstawy neuroobrazowania;c;15;4
+39;Etyka zawodu psychologa;w;15;4
+40;Socjologia;s;15;4
+41;Metodologia badań medycznych;w;30;4
+42;Statystyka medyczna;c;15;4
+43;Moduł Psychiatria: podstawy psychiatrii;w;15;5
+43;Moduł Psychiatria: podstawy psychiatrii;c;15;5
+44;Moduł Psychiatria: Psychopatologia ogólna i szczegółowa;w;30;5
+44;Moduł Psychiatria: Psychopatologia ogólna i szczegółowa;c;30;5
+45;Moduł Podstawy psychologii klinicznej;w;60;5
+45;Moduł Podstawy psychologii klinicznej;c;60;5
+46;Neurologia rozwojowa;w;30;5
+47;Neurologia kliniczna dorosłych;w;45;5
+48;Psychofarmakologia;w;15;5
+49;Psychologia kliniczna dziecka ;w;30;5
+49;Psychologia kliniczna dziecka ;c;30;5
+50;Podstawy diagnostyki neuropsychologicznej;c;45;6
+51;Podstawy neuropsychologii;w;45;6
+52;Moduł Diagnoza Psychologiczna: Diagnoza psychologiczna dzieci i młodzieży;c;90;6
+53;Moduł Diagnoza Psychologiczna: Diagnoza psychologiczna dorosłych;c;90;6
+54;Moduł Podstawy psychoterapii;w;30;7
+54;Moduł Podstawy psychoterapii;c;30;7
+54;Moduł Podstawy psychoterapii;w;30;8
+54;Moduł Podstawy psychoterapii;c;30;8
+55;Psychoonkologia;w;30;9
+55;Psychoonkologia;c;15;10
