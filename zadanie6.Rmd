@@ -18,7 +18,7 @@ output:
 
 ### *Gdyby ktoś chciał kupić książkę żeby zrobić na złość wszystkim szkolnym katechetkom to może to zrobić [tutaj](https://merlin.pl/pakiet-harry-potter-tomy-1-7-jk-rowling/7321885/?gclid=Cj0KCQjw0PTXBRCGARIsAKNYfG1S2xcON1cMzCm-kuSq8ucbEB0xAKTS4ROP2ixeysokDUifZy7SUQMaAsXjEALw_wcB&gclsrc=aw.ds)*
 
-Wszystkie książki z serii Harry Potter:
+**Wszystkie książki z serii Harry Potter:**
 
 1. Harry Potter i Kamień Filozoficzny
 2. Harry Potter i Komnata Tajemnic
@@ -30,27 +30,27 @@ Wszystkie książki z serii Harry Potter:
 
 *Harry Potter i Przeklęte Dziecko nie jest częścią serii!!!*
 
-Dlaczego warto przeczytać Harrego Pottera? :
+**Dlaczego warto przeczytać Harrego Pottera? :**
 
 - Bo to na prawdę super książka
 - Każdy chciałby trafić do Hogwartu
 - Bo uczy, że nawet rudy i kujonka mają przyjaciół
 
-I pamiętaj 
+**I pamiętaj **
 
 > jeśli uważasz, ze w dobie komputerów sztuka czytania zanikła, zwłaszcza wśród dzieci, to niezawodny znak, że jesteś mugolem
 
 ### *To może teraz jakaś tabelka z horkruksami*
 
-| Horkruks                     | Kto go zniszczył | Jak został zniszczony       |   |   |   |
-|------------------------------|------------------|-----------------------------|---|---|---|
-| Dziennik Toma Riddla         | Harry Potter     | Kłem bazyliszka             |   |   |   |
-| Pierścień Marvolo Gaunta     | Albus Dumbledore | Mieczem Godryka Gryffindora |   |   |   |
-| Medalion Salazara Slytherina | Ron Weasley      | Mieczem Godryka Gryffindora |   |   |   |
-| Puchar Helgi Huffelpuf       | Hermiona Grenger | Kłem bazyliszka             |   |   |   |
-| Diadem Roweny Ravenclaw      | Vincent Crabbe   | Zaklęciem Szatańska pożoga  |   |   |   |
-| Harry Potter                 | Voldemort        | Zaklęciem avada kedavra     |   |   |   |
-| Wąż Nagini                   | Nevil Longbottom | Mieczem Godryka Gryffindora |   |   |   |
+| Horkruks                     | Kto go zniszczył | Jak został zniszczony       |
+|------------------------------|------------------|-----------------------------|
+| Dziennik Toma Riddla         | Harry Potter     | Kłem bazyliszka             |
+| Pierścień Marvolo Gaunta     | Albus Dumbledore | Mieczem Godryka Gryffindora |
+| Medalion Salazara Slytherina | Ron Weasley      | Mieczem Godryka Gryffindora |
+| Czarka Helgi Huffelpuff      | Hermiona Grenger | Kłem bazyliszka             |
+| Diadem Roveny Ravenclaw      | Vincent Crabbe   | Zaklęciem Szatańska pożoga  |
+| Harry Potter                 | Voldemort        | Zaklęciem avada kedavra     |
+| Wąż Nagini                   | Nevil Longbottom | Mieczem Godryka Gryffindora |
 
 ### Zacytujmy Dumbledora w języku R. 
 
@@ -61,10 +61,17 @@ I pamiętaj
 
 #### Tabela fordów, które Ron i Harry ukradli w dorosłym życiu
 
+```{r}
 library(tidyverse)
 library(ggplot2)
 
+```
+
+```{r}
+
 mpg %>% filter(manufacturer=="ford")
+```
+
 
 
 #### Gdy Ron skonfundował egzaminatora na egzaminie z prawa jazdy, mogli zacząć jeździć samochodami jak mugole. Ich podróże odbywały się pod hasłem: Ukradzionym fordem przez świat
@@ -74,19 +81,17 @@ mpg %>% filter(manufacturer=="ford")
 ```{r}
 library(tidyverse)
 library(ggplot2)
-```
 
-```{r}
 mpg %>% filter(manufacturer == "ford")
-```
 
-```{r}
 auta <- mpg %>% filter(manufacturer == "ford")
 
 ggplot(auta, aes(displ, cty)) + 
 geom_point() +
 labs(title = "Spalanie a pojemność", x = "Pojemność", y = "Spalanie")
 ```
+
+
 
 ```{r message=FALSE, warning=FALSE, include=FALSE}
 mpg %>% filter(manufacturer == "ford", year == 2006)
