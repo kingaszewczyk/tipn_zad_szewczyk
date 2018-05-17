@@ -36,9 +36,9 @@ output:
 - Każdy chciałby trafić do Hogwartu
 - Bo uczy, że nawet rudy i kujonka mają przyjaciół
 
-**I pamiętaj **
+** I pamiętaj **
 
-> jeśli uważasz, ze w dobie komputerów sztuka czytania zanikła, zwłaszcza wśród dzieci, to niezawodny znak, że jesteś mugolem
+> Jeśli uważasz, ze w dobie komputerów sztuka czytania zanikła, zwłaszcza wśród dzieci, to niezawodny znak, że jesteś mugolem
 
 ### *To może teraz jakaś tabelka z horkruksami*
 
@@ -65,11 +65,8 @@ output:
 library(tidyverse)
 library(ggplot2)
 
-```
-
-```{r}
-
 mpg %>% filter(manufacturer=="ford")
+
 ```
 
 
