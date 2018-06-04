@@ -1,8 +1,8 @@
 # zadanie 2-1.1
-kwartal_1 <- c("Styczeñ", "Luty", "Marzec")
-kwartal_2 <- c("Kwiecieñ", "Maj", "Czerwiec")
-kwartal_3 <- c("Lipiec", "Sierpieñ", "Wrzesieñ")
-kwartal_4 <- c("PaŸdziernik", "Listopad", "Grudzieñ")
+kwartal_1 <- c("StyczeÅ„", "Luty", "Marzec")
+kwartal_2 <- c("KwiecieÅ„", "Maj", "Czerwiec")
+kwartal_3 <- c("Lipiec", "SierpieÅ„", "WrzesieÅ„")
+kwartal_4 <- c("PaÅºdziernik", "Listopad", "GrudzieÅ„")
 
 #zadanie 2-1.2
 rok <- c(kwartal_1, kwartal_2, kwartal_3, kwartal_4)
@@ -24,7 +24,7 @@ mean(nchar(rok))
 
 sd(nchar(rok))
 
-"miesiace_zimowe" <- c("grudzieñ", "styczeñ", "luty", "marzec")
+"miesiace_zimowe" <- c("grudzieÅ„", "styczeÅ„", "luty", "marzec")
 
 mean(nchar(miesiace_zimowe))
 
@@ -32,18 +32,18 @@ sd(nchar(miesiace_zimowe))
 
 
 #zadanie 2-2
-oblicz_godziny <- function(bie¿¹cy_rok, bie¿¹cy_dzieñ, bie¿¹cy_miesi¹c, obsuwa)
+oblicz_godziny <- function(bieÅ¼Ä…cy_rok, bieÅ¼Ä…cy_dzieÅ„, bieÅ¼Ä…cy_miesiÄ…c, obsuwa)
 {
-  Godziny_W_Tym_Roku <- (((12 - bie¿¹cy_miesi¹c) * 30 ) - (30 - bie¿¹cy_dzieñ)) * 24
-  Godziny_Przez_Wszystkie_Lata <- (2022 - bie¿¹cy_rok - 1 + obsuwa) * 365 * 24
+  Godziny_W_Tym_Roku <- (((12 - bieÅ¼Ä…cy_miesiÄ…c) * 30 ) - (30 - bieÅ¼Ä…cy_dzieÅ„)) * 24
+  Godziny_Przez_Wszystkie_Lata <- (2022 - bieÅ¼Ä…cy_rok - 1 + obsuwa) * 365 * 24
   Godziny_Na_Ostatnim_Roku <-  (6 * 30 * 24)
   return (Godziny_W_Tym_Roku + Godziny_Przez_Wszystkie_Lata + Godziny_Na_Ostatnim_Roku)
 }
 oblicz_godziny(2018, 26, 04, 0)
 
 #zadanie 2-3
-lata_przestêpne <- c(1800:2018)
-for (i in lata_przestêpne) {
+lata_przestÄ™pne <- c(1800:2018)
+for (i in lata_przestÄ™pne) {
   if (((i %% 4) == 0) & ((i %% 100) != 0) | ((i %% 400) == 0))
     print(i)
 }   
